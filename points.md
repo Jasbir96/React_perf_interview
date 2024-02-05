@@ -13,7 +13,6 @@
     Redux toolkit uses a lib -> `immerjs` that helps to do all the update immutability
 2. Redux toolkit -> also provide the support of `redux-thunk` (enable async state changes)
  
-
  ## Context vs Redux
  1. bundle size 
  * context -> part of react (It does not increase the bundle size) -> yes
@@ -30,3 +29,5 @@
 ## Production Application
 * context -> auth, themes, localization(high read and very low update)
 * Redux -> central state managmenet (it works everywhere)
+
+
