@@ -1,7 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
 import { counterInputAction } from '../../redux/slice/CounterInputSlice';
 const CounterInputWithRedux = () => {
-
     const counterObj = useSelector((store) => {
         return store.counterInput;
     });
