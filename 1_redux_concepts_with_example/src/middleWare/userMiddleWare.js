@@ -16,6 +16,7 @@
 import UserSlice from "../redux/slice/UserSlice";
 const action = UserSlice.actions;
 export const fetchUserMiddleware = function (params) {
+    //reason -> 1
     return async (dispatch) => {
         try {
             dispatch(action
