@@ -2,33 +2,17 @@ import logo from './logo.svg';
 import { useState } from "react";
 
 import './App.css';
+import State_exp from './use_state_reducer/State_exp';
+import Reducer_counter from './use_state_reducer/Reducer_counter';
 function App() {
-  const [count, setCOunt] = useState(0);
-  const [value, setvalue] = useState(0);
-
-  const handleClick = () => {
-    setCount(count + 1);
-    setvalue("hello");
-  }
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p onClick={handleClick}>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <State_exp>
+      </State_exp>
+      <Reducer_counter></Reducer_counter>
+    </>
+  )
 }
 
 export default App;

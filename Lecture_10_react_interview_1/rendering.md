@@ -136,7 +136,6 @@ const vdom ={
 * JSX was developed just as a syntax sugar
 * VDOM -> a js object that represent the UI
 
-
 ## How react effciently update the UI -> 
 * **State Change**:Imagine a button in your React application. When a user clicks it, the component's state changes, triggering a cascade of updates. This change could be anything from updating a counter to toggling a component's visibility.
 
