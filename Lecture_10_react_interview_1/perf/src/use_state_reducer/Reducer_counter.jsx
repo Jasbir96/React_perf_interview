@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState,useReducer } from 'react'
 
 function Reducer_counter() {
     const intialState = 0;

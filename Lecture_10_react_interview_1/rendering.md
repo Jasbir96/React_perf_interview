@@ -156,3 +156,13 @@ const vdom ={
 Architecture : fiber architecture
 
 
+
+## peformance features expose to dev 
+
+* React provide different :  `caching mechanisms`
+  * `component level caching` -> `React.memo` you can preventre-render of a componnet if the props are not changed.
+  * `cache some solution `-> `useMemo` : you can prevent cacluclation / execution of a function if the dependency has not changes
+
+  * `cache a reference  to a function`-> `usecallback` to cache  a function that can be used to prevent ot to be recreated on every re-render
+
+  ## Disadvantage of over-using it : you will be using extra memory to store these cached thing and extra processing willl be required
