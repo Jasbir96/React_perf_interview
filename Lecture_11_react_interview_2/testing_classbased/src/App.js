@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-
+// import UseCallbackConcept from "./memoization/UseCallbackConcept"
+import Counter from './testing/Counter';
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,8 @@ function App() {
         >
           Learn React
         </a>
+        {/* <UseCallbackConcept></UseCallbackConcept> */}
+        <Counter></Counter>
       </header>
     </div>
   );
