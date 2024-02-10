@@ -36,5 +36,16 @@ checking whether your application matches the given specification
  * React-testing library
     * gives you access to VDOM , events, screen
 * JEST : js test runner and it also verifies the actual output
-    * 
+    * test ,describe , expect
+
+ ### Things to test in a unit test
+* inital render
+* on re-render
+* snapshot test
+
+## TDD -> Test driven Development(red-green)
+`Usecase`: requirements are stable
+* first write all the testcases -> write the component
+* refractor all your testcases -> optimize your component
+
 
